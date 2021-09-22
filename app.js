@@ -1,10 +1,10 @@
 var btnClick=document.querySelector("#i1");
 var textInput=document.querySelector("#i2");
 var divOutput=document.querySelector("#i3");
-var serverURL="https://api.funtranslations.com/translate/pirate.json?text=Hi I am Arpit&text=hello everyone what's going on";
+var serverURL="https://api.funtranslations.com/translate/pirate.json";
 
 function getURL(text){
-    return serverURL+"?"+"text="+text;
+    return serverURL+"?text="+text;
 }
 
 function errorHandler(){
