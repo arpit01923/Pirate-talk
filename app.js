@@ -4,7 +4,7 @@ var divOutput=document.querySelector("#i3");
 var serverURL="https://api.funtranslations.com/translate/pirate.json";
 
 function getURL(text){
-    return serverURL+"?text="+text;
+    return serverURL+"?"+"text="+text;
 }
 
 function errorHandler(){
